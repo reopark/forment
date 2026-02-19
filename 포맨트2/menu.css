@@ -1,0 +1,139 @@
+/*main*/
+.main {
+    width: 100%;
+    height: 300px;
+    min-height: 220px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f6f6;
+}
+
+/* 배경 이미지 레이어 */
+.main .main_bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.55) 55%, rgba(255,255,255,0.15) 100%),
+        url("images/menu/main.png") center/cover no-repeat;
+    transform: scale(1.03);
+}
+
+/* 텍스트 */
+.main .main_title {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.main .main_title h1{
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+/* 반응형 */
+@media (max-width: 1000px){
+    .main .main_title h1 {
+        font-size: 30px; 
+    }
+}
+
+/*section1*/
+.section1 .cate {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section1 .cate .item.on img {
+    box-shadow: 0 0 0 1px #000;
+    border-radius: 50%;
+}
+
+.section1 .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 17px;
+}
+
+.section1 .container .item {
+    margin-bottom: 40px;
+}
+
+.section1 .container .item a {
+    display: block;
+}
+
+.section1 .cart {
+    bottom: 150px;
+}
+
+.section1 a:hover + .cart, .section1 .cart:hover {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.section1 .container .item img, .section1 .container .item_sub img {
+    transition: 0.4s ease;
+}
+
+.section1 .item .img_box, .section1 .item_sub .img_box {
+    overflow: hidden;
+}
+
+.section1 .container .item:hover img, .section1 .container .item_sub:hover img {
+    transform: scale(1.12);
+}
+
+.section1 .container .item .item_text {
+    padding: 20px 10px 0 10px;
+}
+
+.section1 .container .item .item_text .top {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: #888888;
+}
+
+.section1 .container .item .item_text .top .top1::after {
+    content: '|';
+    margin-left: 10px;
+}
+
+.section1 .container .item .item_text .b {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.section1 .container .item .item_text2 .b {
+    margin-bottom: 62px;
+}
+
+.section1 .item_sub a {
+    width: 100%;
+}
+
+.section1 .item_sub .item_text {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.section1 .item_sub .item_text .b {
+    margin-bottom: 5px !important;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+
+@media (max-width : 1000px) {
+    .section1 .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

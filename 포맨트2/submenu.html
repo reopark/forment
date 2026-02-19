@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>submenu</title>
+    <link rel="stylesheet" href="submenu.css">
+    <link rel="stylesheet" href="com.css">
+    <link rel="stylesheet" href="url.css">
+    <link rel="icon" href="images/cate1.png">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/submenu.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!-- aside 시작 -->
+    <aside id="top"><p>신규회원 무료 배송 + 1만원 쿠폰 팩</p></aside>
+    <!-- aside 끝 -->
+    <!-- top_btn 시작 -->
+    <div class="top_btn"><a href="#top"><i class="fa-solid fa-angle-up"></i></a></div>
+    <!-- top_btn 끝 -->
+    <!-- header 시작 -->
+    <header>
+        <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>
+            <ul class="menu">
+                <li class="menu_li">
+                    <a href="#none">About us</a>
+                    <ul class="sub">
+                        <li class="sub_list"><a href="">브랜드 소개</a></li>
+                        <li class="sub_list"><a href="">스토어</a></li>
+                    </ul>
+                </li>
+                <li class="menu_li">
+                    <a href="menu.html">Products</a>
+                    <ul class="sub">
+                        <li class="sub_list"><a href="menu.html">제품보기</a></li>
+                        <li class="sub_list"><a href="">콜라보</a></li>
+                        <li class="sub_list"><a href="">정기배송</a></li>
+                    </ul>
+                </li>
+                <li class="menu_li"><a href="#">Member ship</a></li>
+                <li class="menu_li">
+                    <a href="#">Journal</a>
+                    <ul class="sub">
+                        <li class="sub_list"><a href="">매거진</a></li>
+                        <li class="sub_list"><a href="">캠페인</a></li>
+                    </ul>
+                </li>
+                <li class="menu_li"><a href="#">Event</a></li>
+                <li class="menu_li">
+                    <a href="#">Community</a>
+                    <ul class="sub">
+                        <li class="sub_list"><a href="">Q&A</a></li>
+                        <li class="sub_list"><a href="">FAQ</a></li>
+                        <li class="sub_list"><a href="">공지사항</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="right">
+                <a href="#none"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            </div>
+            <div class="search">
+                <div class="search_form">
+                    <input type="text" placeholder="검색어를 입력해주세요.">
+                    <button class="sub">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                </div>
+            </div>
+            <div class="ham">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+            </div>
+    </header>
+    <!-- haeder 끝 -->
+    <!-- section1 시작 -->
+    <section class="section1">
+        <div class="sec-1">
+            <div class="left">
+                <div class="con">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="p_img1" src="" alt=""></div>
+                            <div class="swiper-slide"><img class="p_img2" src="" alt=""></div>
+                            <div class="swiper-slide"><img class="p_img3" src="" alt=""></div>
+                            <div class="swiper-slide"><img class="p_img4" src="" alt=""></div>
+                            <div class="swiper-slide"><img class="p_img5" src="" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#none">
+                    <div class="com">
+                        <!--<img src="images/sub/광고1.png" alt="">
+                        <img src="images/sub/광고2.png" alt="">
+                        <img src="images/sub/광고3.png" alt="">
+                        <img src="images/sub/광고4.png" alt="">
+                        <img src="images/sub/광고5.png" alt="">-->
+                        <img src="images/sub/광고.png" alt="">
+                        <h4>이벤트 모아보기<i class="fa-solid fa-angle-right"></i></h4>
+                    </div>
+                </a>
+                <div class="img1">
+                    <img id="story1" src="" alt="">
+                </div>
+                <div class="img2">
+                    <img id="story2" src="" alt="">
+                </div>
+                <div class="img3">
+                    <img id="story3" src="" alt="">
+                </div>
+                <div class="img4">
+                    <img id="story4" src="" alt="">
+                </div>
+                <div class="img5">
+                    <img id="story5" src="" alt="">
+                </div>
+                <div class="img5">
+                    <img id="story6" src="" alt="">
+                </div>
+                <div class="img5">
+                    <img id="story7" src="" alt="">
+                </div>
+                <img src="images/sub/left2-4.png" alt="">
+                <div class="service_info">
+                    <div class="service">
+                        <div class="ser_toggle">
+                            <div class="to_title">
+                                <h4>상품 정보 제공 고시</h4>
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                            <div class="to_content">
+                                <ul class="con_info">
+                                    <li>
+                                        <p class="b">제품명</p>
+                                        <p>포맨트 시그니처 퍼퓸 - 코튼허그</p>
+                                    </li>
+                                    <li>
+                                        <p class="b">내용물 용량 또는 중량</p>
+                                        <p>50ml / 1.69 fl. oz</p>
+                                    </li>
+                                    <li>
+                                        <p class="b">제품 주요사양</p>
+                                        <p>모든피부용</p>
+                                    </li>
+                                    <li>
+                                        <p class="b">제품설명</p>
+                                        <p>몸을 따라 흐르는 촉촉한 물기 사이로 피어나는 깨끗한 살냄새, 허그의 향연, 사랑하는 <br> 사람을 끌어안았을때의 기분 좋은 포근함을 담은 향수</p>
+                                    </li>
+                                    <li>
+                                        <p class="b">사용기한</p>
+                                        <p>개봉 전 36개월</p>
+                                    </li>
+                                    <li>
+                                        <p class="b">사용방법</p>
+                                        <p>맥박이 뛰는곳, 귀 뛰쪽 또는 손목 등에 1~2회 분사하여 사용하십시오.</p>
+                                    </li>
+                                    <li>
+                                        <p class="b">제조업자</p>
+                                        <p>(주)한불화농</p>
+                                    </li>
+                                    <li>
+                                        <p class="b">제조국</p>
+                                        <p>대한민국</p>
+                                    </li>
+                                    <li>
+                                        <p class="b">기능성화장품 심사필 유무</p>
+                                        <p>해당없음</p>
+                                    </li>
+                                    <li>
+                                        <p class="b">성분</p>
+                                        <a href="#"><p>전성분 보기</p></a>
+                                    </li>
+                                    <li>
+                                        <p class="b">사용할때 주의사항</p>
+                                        <a href="#"><p>주의사항 보기</p></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ser_toggle">
+                            <div class="to_title">
+                                <h4>상품 결제 정보</h4>
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                            <div class="to_content">
+                                <ul class="con_info">
+                                    <li>
+                                        <p>- 고액결제의 경우 안정을 위해 카드사에서 확인 전화를 드릴 수도 있습니다.</p>
+                                    </li>
+                                    <li>
+                                        <p>- 확인 과정에서 도난 카드의 사용이나 타인 명의의 주문 등 정상적인 주문이 아니라고 판단될 경우 임의로 <br>
+                                            주문을 보류 또는 취소할 수 있습니다.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>- 가상 계좌 주문의 경우, 3일 이내로 입금이 진행되어야 하며 입금되지 않은 주문은 자동취소 됩니다.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ser_toggle">
+                            <div class="to_title">
+                                <h4>배송 안내</h4>
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                            <div class="to_content">
+                                <ul class="con_info">
+                                    <li>
+                                        <p>배송 방법 : 택배</p>
+                                    </li>
+                                    <li>
+                                        <p>배송 지역 : 전국지역</p>
+                                    </li>
+                                    <li>
+                                        <p>배송 비용 : 3,000원</p>
+                                    </li>
+                                    <li>
+                                        <p>배송 기간 : 3 ~ 7일</p>
+                                    </li>
+                                    <li>
+                                        <p>배송 안내 : 제주도 및 도서산간 지역으로의 배송인 경우 [4,000원의 배송비가 추가됩니다.]</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ser_toggle">
+                            <div class="to_title">
+                                <h4>교환 / 반품 안내</h4>
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                            <div class="to_content">
+                                <ul class="con_info">
+                                    <li>
+                                        <p class="b">교환 및 반품이 가능한 경우 :</p>
+                                        <p>- 상품을 인도 받은 날로부터 15일 이내에 한해 계약에 관한 청약 철회가 가능합니다. 공급받으신 <br> 상품 및 용역의 내용이 표시.광고 내용과 다르거나 다르게 이행된 경우에는 공급받은 날로부터 3개월 <br> 이내 혹은 그 사실을 알 수 있었던 날부터 30일 이내 교환/반품이 가능합니다.</p>
+                                    </li>
+                                    <li>
+                                        <p class="b">교환 및 반품이 불가능한 경우 : </p>
+                                        <p>- 고객님의 책임 있는 사유로 상품 등이 멸실 또는 훼손된 경우. <br>
+                                            - 고객님의 사용 또는 일부 소비에 의하여 상품의 가치가 현저히 감소한 경우(예: 제품을 일부 사용한 경우/제품의 <br>
+                                            구성품 또는 상자 등이 훼손되어 상품가치가 상실된 경우/화장품 등 본품을 개봉하여 제품의 가치가 훼손된 경우) <br>
+                                            - 시간의 경과에 의하여 재판매가 곤란할 정도로 상품 등의 가치가 현저히 감소한 경우 <br>
+                                            - 복제가 가능한 상품 등의 포장을 훼손한 경우 <br>
+                                            - 소비자의 주문에 따라 개별적으로 생산되는 상품이 제작에 들어간 경우
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="ser_toggle">
+                            <div class="to_title">
+                                <h4>구매 혜택 관련 유의사항</h4>
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                            <div class="to_content">
+                                <ul class="con_info">
+                                    <li>
+                                        <p>원활한 구매 환경을 위해, 비정상적인 구매 행위에 대해 혜택이 제한될 수 있습니다.</p>
+                                        <p>- 동일 상품을 정해진 구매 횟수 이상 반복 구매하는 경우</p>
+                                        <p>- 여러 계정·결제수단·배송지 등을 활용하여 동일 상품을 대량 구매하는 경우</p>
+                                        <p>- 회사가 고지한 구매 제한 기준을 반복적으로 위반하는 경우</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="detail_btn">상품 자세히 보기</button>
+            <div class="right">
+                <div class="sticky">
+                    <div class="url_pop">
+                        <div class="bg"></div>
+                        <div class="share">
+                            <div class="x_btn1"><i class="fa-solid fa-x"></i></div>
+                            <div class="share_title">
+                                <h4>공유하기</h4>
+                            </div>
+                            <div class="share_btn">
+                                <ul>
+                                    <li class="kakao">
+                                        <a href="#">
+                                            <h6>카카오톡</h6>
+                                        </a>
+                                    </li>
+                                    <li class="naver">
+                                        <a href="https://share.naver.com/web/shareView?url=YOUR_URL&title=YOUR_TITLE" target="_blank" rel="noopener">
+                                            <h6>네이버</h6>
+                                        </a>
+                                    </li>
+                                    <li class="facebook">
+                                        <a href="https://www.facebook.com/sharer.php?u=YOUR_URL" target="_blank" rel="noopener">
+                                            <h6>페이스북</h6>
+                                        </a>
+                                    </li>
+                                    <li class="line">
+                                        <a href="https://social-plugins.line.me/lineit/share?url=YOUR_URL" target="_blank" rel="noopener">
+                                            <h6>라인</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="url_copy">
+                                <div class="control">
+                                    <input type="text" value="https://goodman.com" readonly>
+                                    <button>복사</button>
+                                </div>
+                            </div>
+                            <div id="copy_complete" class="copy_complete">URL이 복사되었습니다.</div>
+                        </div>
+                    </div>
+                    <div class="text_title">
+                        <h3 id="p_name"></h3>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    <div class="text1">
+                        <h6 id="p_price"></h6>
+                    </div>
+                    <div class="text2">
+                        <h6 id="p_name_info1"></h6>
+                        <h6 id="p_name_info2"></h6>
+                    </div>
+                    <div class="text_dec">
+                        <h6 id="p_desc1"></h6>
+                        <br>
+                        <h6 id="p_desc2"></h6>
+                        <br>
+                        <h6 id="p_desc3"></h6>
+                        <br>
+                        <h6 id="p_desc4"></h6>
+                    </div>
+                    <div class="text3">
+                        <h6 id="p_vol1"></h6>
+                        <h6 id="p_vol2"></h6>
+                    </div>
+                    <div class="guide_info">
+                        <div class="guide_toggle">
+                            <div class="to_title2">
+                                <h6>향노트</h6>
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                            <div class="to_content2">
+                                <ul class="con_info">
+                                    <li>TOP : 은방울 꽃 | 베르가못</li>
+                                    <li>MID : 장미 | 쟈스민 | 오렌지꽃</li>
+                                    <li>BASE : 패출리 | 시더우드 | 머스크 | 앰버</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="guide_toggle">
+                            <div class="to_title2">
+                                <h6>배송안내</h6>
+                                <i class="fa-solid fa-plus"></i>
+                                <i class="fa-solid fa-minus"></i>
+                            </div>
+                            <div class="to_content2">
+                                <ul class="con_info">
+                                    <li>- 배송비 : 3,000원 (50,000원 이상 결제 시 무료)</li>
+                                    <li>- 평일 16시 이전 결제 완료시 당일 출고 <br> (주문량 폭주시 출고가 지연될 수 있습니다.)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="guide_toggle">
+                            <div class="to_title2">
+                                <div class="title">
+                                    <h6>결제 혜택</h6>
+                                    <i class="fa-solid fa-plus"></i>
+                                    <i class="fa-solid fa-minus"></i>
+                                </div>
+                                <div class="fitem toss">
+                                    <div class="fi_logo">
+                                        <li>toss</li>
+                                    </div>
+                                    <div class="fi_text">
+                                        <strong>퀵 계좌이체</strong>
+                                        <h6>결제 금액 상관없이 0.5% 무제한 즉시 할인</h6>
+                                    </div>
+                                </div>
+                                <div class="fitem credit">
+                                    <div class="fi_logo">
+                                        <li>credit</li>
+                                    </div>
+                                    <div class="fi_text">
+                                        <strong>카드 결제시</strong>
+                                        <h6>5만원 이상 결제 시 무이자 할부 혜택</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="to_content2">
+                                <ul class="con_info">
+                                    <li><strong>2~5개월</strong> 신한카드, 국민카드, 삼성카드, 현대카드, 롯데카드, 하나카드</li>
+                                    <li><strong>2~6개월</strong> 비씨카드, 농협카드, 우리카드</li>
+                                    <li><strong>2~7개월</strong> 광주카드</li>
+                                    <li><strong>2~3개월</strong> 전북카드</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="option">
+                        <h6>옵션 선택</h6>
+                        <div class="option_toggle">
+                            <div class="op_title">
+                                <h6>- [필수] 옵션을 선택해 주세요-</h6>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                            <div class="op_content">
+                                    <h6>- [필수] 옵션을 선택해 주세요-</h6>
+                                    <p></p>
+                                    <h6 class="b">옵션선택</h6>
+                                    <h6 class="sub">퍼퓸 1개</h6>
+                                </div>
+                        </div>
+                    </div>
+                    <table>
+                        <tr class="option_product">
+                            <td>
+                                <p>
+                                    <span class="option_title"></span>
+                                    <br>
+                                    -
+                                    <span class="option_sub"></span>
+                                </p>
+                            </td>
+                            <td>
+                                <span>
+                                    <input type="text" value="1">
+                                    <a href="#none" class="up"><i class="fa-solid fa-angle-up"></i></a>
+                                    <a href="#none" class="down"><i class="fa-solid fa-angle-down"></i></a>
+                                </span>
+                            </td>
+                            <td><a href="#none" class="delete"><i class="fa-solid fa-x"></i></a></td>
+                            <td>
+                                <span class="product_price"></span>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="price">
+                        <h6><strong>39,000원</strong>(0개)</h6>
+                    </div>
+                    <div class="btn">
+                        <a href="#"><span>선물하기로 이동</span></ㅁ>
+                        <a href="#" class="cart_btn"><span>장바구니로 이동</span></a>
+                    </div>
+                    <div class="n_pay">
+                        <div class="n_title">
+                            <p class="color">naver</p>
+                            <p>네이버 ID로 간편 구매</p>
+                            <p>네이버 페이</p>
+                        </div>
+                        <div class="n_btn">
+                            <a href="#"><h6 class="blind"><span class="n">n</span>Play 구매</h6></a>
+                        </div>
+                        <div class="n_save">
+                            <h6>찜</h6>
+                        </div>
+                    </div>
+                    <div class="npay_event">
+                        <div class="event_text">
+                            <h6 class="color">이벤트</h6>
+                            <h6>네이버페이</h6>
+                        </div>
+                        <div class="npay_btn">
+                            <a href="#"><i class="fa-solid fa-angle-left"></i></a>
+                            <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="check check1">
+                        인당 최대구매제한이 있을 수 있으며, 구매 정책을 위반 또는 오남용 시 주문이 취소될 수 있으며 서비스 이용에 제한이 있을수 있습니다.
+                    </div>
+                    <div class="check check2">
+                        네이버페이 구매자는 비회원이므로 사은품 증정 혜택이 적용안되는 점 참고바랍니다.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section1 끝 -->
+    <!-- section2 시작 -->
+    <section class="section2">
+        <div class="section_title">
+            <h2>다른 향 더보기</h2>
+        </div>
+        <div class="container">
+            <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide item">
+                            <a href="">
+                                <img class="re_img" src="" alt="">
+                                <h6 class="re_name"></h6>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- section2 끝 -->
+    <!-- section3 시작 -->
+    <section class="section3">
+        <div class="section_title">
+            <h3>REVIEW</h3>
+            <h6 class="warning">?</h6>
+        </div>
+        <div class="review_rating">
+            <i class="fa-solid fa-star"></i>
+            <h1>4.9</h1>
+            <h3><span>97.4%</span>의 구매자들이 이 상품을 좋아합니다.</h3>
+        </div>
+        <div class="poto_review">
+            <h3>포토 리뷰</h3>
+            <div class="poto_check">
+                <input type="checkbox" id="potocheck">
+                <div class="auto">
+                    <span class="icon"></span>
+                    <label for="potocheck">포토 / 동영상 리뷰만 보기</label>
+                </div>
+            </div>
+        </div>
+        <div class="swiper poto_img">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide item">
+                    <img src="images/potoreview/sub60/1.jpg" alt="">
+                </div>
+                <div class="swiper-slide item">
+                    <img src="images/potoreview/sub60/2.jpg" alt="">
+                </div>
+                <div class="swiper-slide item">
+                    <img src="images/potoreview/sub60/3.jpg" alt="">
+                </div>
+                <div class="swiper-slide item">
+                    <img src="images/potoreview/sub60/4.jpg" alt="">
+                </div>
+                <div class="swiper-slide item">
+                    <img src="images/potoreview/sub60/5.jpg" alt="">
+                </div>
+                <div class="swiper-slide item">
+                    <img src="images/potoreview/sub60/6.jpg" alt="">
+                </div>
+                <div class="swiper-slide item">
+                    <img src="images/potoreview/sub60/7.jpg" alt="">
+                </div>
+                <div class="swiper-slide item">
+                    <img src="images/potoreview/sub60/8.jpg" alt="">
+                </div>
+                <div class="swiper-slide item">
+                    <img src="images/potoreview/sub60/9.jpg" alt="">
+                </div>
+                <div class="swiper-slide item">
+                    <img src="images/potoreview/sub60/10.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="review_title">
+            <h3>리뷰 (48)</h3>
+            <div class="re_text">리뷰 작성하기</div>
+        </div>
+        <div class="orders">
+            <h4>추천순</h4>
+            <h4>최신순</h4>
+            <h4>평점순</h4>
+        </div>
+        <div class="order_review">
+            <div class="con">
+                <div class="item">
+                    <div class="item_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="item_text1">
+                            <h6>5.0</h6>
+                        </div>
+                    </div>
+                    
+                    <h6>조수*</h6>
+                    <h6 class="c">2025-11-11</h6>
+                    <h6>웰컴</h6>
+                </div>
+                <div class="item2">
+                    <h6 class="re1">옵션 선택</h6>
+                    <h6 class="re2">사전예약 혜택으로 퍼퓸헤어 코튼배스도 득템하였습니다 기존 아크네 코튼 허그는 뚜껑이 검은색이고 코튼베이비는 하늘색에 가깝네요 코튼허그도 향은 좋아요 하지만 코튼베이비도 향이 좋네요 말로 표현은 어려우나 좋다는 느낌이에요 아크네시리즈가 베스트 향 순으로 계속 나왔음 좋겠어요</h6>
+                    <img src="images/potoreview/sub60/1.jpg" alt="">
+                    <button class="sug">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <h6>추천해요</h6>
+                        <h6>40</h6>
+                    </button>
+                </div>
+            </div>
+            <div class="con">
+                <div class="item">
+                    <div class="item_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="item_text1">
+                            <h6>5.0</h6>
+                        </div>
+                    </div>
+                    
+                    <h6>조수*</h6>
+                    <h6 class="c">2025-11-11</h6>
+                    <h6>웰컴</h6>
+                </div>
+                <div class="item2">
+                    <h6 class="re1">옵션 선택</h6>
+                    <h6 class="re2">새로나온 제품이라 구입했는데 증정행사에다 향도 좋고 너무 마음에 들어요 나중에 또 구입할게요 많이파세요</h6>
+                    <img src="images/potoreview/sub60/2.jpg" alt="">
+                    <button class="sug">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <h6>추천해요</h6>
+                        <h6>20</h6>
+                    </button>
+                </div>
+            </div>
+            <div class="con">
+                <div class="item">
+                    <div class="item_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="item_text1">
+                            <h6>5.0</h6>
+                        </div>
+                    </div>
+                    
+                    <h6>조수*</h6>
+                    <h6 class="c">2025-11-11</h6>
+                    <h6>웰컴</h6>
+                </div>
+                <div class="item2">
+                    <h6 class="re1">옵션 선택</h6>
+                    <h6 class="re2">아직 써보진 않았네요~괜찮으면 재구매할려구요~^^</h6>
+                    <img src="images/potoreview/sub60/3.jpg" alt="">
+                    <button class="sug">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <h6>추천해요</h6>
+                        <h6>0</h6>
+                    </button>
+                </div>
+            </div>
+            <div class="con">
+                <div class="item">
+                    <div class="item_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="item_text1">
+                            <h6>5.0</h6>
+                        </div>
+                    </div>
+                    
+                    <h6>조수*</h6>
+                    <h6 class="c">2025-11-11</h6>
+                    <h6>웰컴</h6>
+                </div>
+                <div class="item2">
+                    <h6 class="re1">옵션 선택</h6>
+                    <h6 class="re2">코튼제이비 향수를 좋아하기도 하고, 딸아이가 등드름이 나는 피부여서 주문했는데 좋다고 하네요.</h6>
+                    <img src="images/potoreview/sub60/4.jpg" alt="">
+                    <button class="sug">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <h6>추천해요</h6>
+                        <h6>4</h6>
+                    </button>
+                </div>
+            </div>
+            <div class="con">
+                <div class="item">
+                    <div class="item_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="item_text1">
+                            <h6>5.0</h6>
+                        </div>
+                    </div>
+                    
+                    <h6>조수*</h6>
+                    <h6 class="c">2025-11-11</h6>
+                    <h6>웰컴</h6>
+                </div>
+                <div class="item2">
+                    <h6 class="re1">옵션 선택</h6>
+                    <h6 class="re2">	20일부터 순차발송이랬는데 금방 도착했네요</h6>
+                    <img src="images/potoreview/sub60/5.jpg" alt="">
+                    <button class="sug">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <h6>추천해요</h6>
+                        <h6>0</h6>
+                    </button>
+                </div>
+            </div>
+            <div class="con">
+                <div class="item">
+                    <div class="item_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="item_text1">
+                            <h6>5.0</h6>
+                        </div>
+                    </div>
+                    
+                    <h6>조수*</h6>
+                    <h6 class="c">2025-11-11</h6>
+                    <h6>웰컴</h6>
+                </div>
+                <div class="item2">
+                    <h6 class="re1">옵션 선택</h6>
+                    <h6 class="re2">와우대용량 너무좋아요 향도 좋은데요!</h6>
+                    <img src="images/potoreview/sub60/6.jpg" alt="">
+                    <button class="sug">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <h6>추천해요</h6>
+                        <h6>0</h6>
+                    </button>
+                </div>
+            </div>
+            <div class="con">
+                <div class="item">
+                    <div class="item_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="item_text1">
+                            <h6>5.0</h6>
+                        </div>
+                    </div>
+                    
+                    <h6>조수*</h6>
+                    <h6 class="c">2025-11-11</h6>
+                    <h6>웰컴</h6>
+                </div>
+                <div class="item2">
+                    <h6 class="re1">옵션 선택</h6>
+                    <h6 class="re2">잘 받았습니다 일단 향이 너무 마음에 드네요 대용량으로 구매 했는데 잘 한 선택인거 같습니다 많이 파시고 번창하세요 </h6>
+                    <img src="images/potoreview/sub60/7.jpg" alt="">
+                    <button class="sug">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <h6>추천해요</h6>
+                        <h6>0</h6>
+                    </button>
+                </div>
+            </div>
+            <div class="con">
+                <div class="item">
+                    <div class="item_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="item_text1">
+                            <h6>5.0</h6>
+                        </div>
+                    </div>
+                    
+                    <h6>조수*</h6>
+                    <h6 class="c">2025-11-11</h6>
+                    <h6>웰컴</h6>
+                </div>
+                <div class="item2">
+                    <h6 class="re1">옵션 선택</h6>
+                    <h6 class="re2">오늘 저녁에 써보려고요 기대됩니당 포맨트 바디워시 제가 너무 좋아해용</h6>
+                    <img src="images/potoreview/sub60/8.jpg" alt="">
+                    <button class="sug">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <h6>추천해요</h6>
+                        <h6>0</h6>
+                    </button>
+                </div>
+            </div>
+            <div class="con">
+                <div class="item">
+                    <div class="item_icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <div class="item_text1">
+                            <h6>5.0</h6>
+                        </div>
+                    </div>
+                    
+                    <h6>조수*</h6>
+                    <h6 class="c">2025-11-11</h6>
+                    <h6>웰컴</h6>
+                </div>
+                <div class="item2">
+                    <h6 class="re1">옵션 선택</h6>
+                    <h6 class="re2">코튼허그 제품 계속 잘 사용해서 신제품 나와서 코튼베이비 주문같이 했어요.</h6>
+                    <img src="images/potoreview/sub60/9.jpg" alt="">
+                    <button class="sug">
+                        <i class="fa-regular fa-thumbs-up"></i>
+                        <h6>추천해요</h6>
+                        <h6>0</h6>
+                    </button>
+                </div>
+            </div>
+            <button class="review_plus">리뷰 더보기</button>
+        </div>
+    </section>
+    <!-- section3 끝 -->
+    <!-- footer 시작 -->
+    <footer>
+        <div class="footer1">
+            <img src="images/logo.png" alt="">
+            <div class="footer_text">
+                <ul class="item">
+                    <li>주식회사 냥냥이</li>
+                    <br>
+                    <li>대표이사 : 박상범</li>
+                    <li class="line">주소 : 인천 광역시 부평구 부평대로</li>
+                    <li class="line">사업자 등록번호 : 220-111-33333 <a href="#">[사업자정보확인]</a></li>
+                    <br>
+                    <li>전자우편 : <a href="#">green@green.com</a></li>
+                    <br>
+                    <br>
+                    <li>© APR all rights reserved. Hosted by CAFE24</li>
+                </ul>
+                <div class="right">
+                    <div class="item item1">
+                        <a href="#"><p>이용약관</p></a>
+                        <a href="#"><p class="b">개인정보처리방침</p></a>
+                        <a href="#"><p>반품 및 환불 규정</p></a>
+                        <a href="#"><p>협업문의</p></a>
+                    </div>
+                    <div class="item item2">
+                        <ul>
+                            <li>1111-5555</li>
+                            <br>
+                            <li>운영시간 : 09 : 00 ~ 18 : 00 (토, 일, 공휴일 휴무)</li>
+                            <li>점심시간 : 12 : 00 ~ 13 : 00</li>
+                        </ul>
+                        <div class="sns">
+                            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://pf.kakao.com"><i class="fa-brands fa-kakao-talk"></i></a>
+                            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- footer 끝 -->
+</body>
+</html>

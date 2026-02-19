@@ -1,0 +1,194 @@
+/* header */
+header {
+    border-bottom: 1px solid #dddddd;
+}
+
+.login_main {
+    width: 90%;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.login {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.login_main .bg {
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+}
+
+.login .login_title {
+    margin-bottom: 30px;
+}
+
+.login .login_title img {
+    width: 300px;
+    margin: 0 auto 50px;
+}
+
+.login .login_sns {
+    background-color: #ff0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.login .login_sns a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login .login_sns a i {
+    margin-right: 10px;
+}
+
+.login .login_naver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #02c659;
+    height: 60px;
+    border-radius: 15px;
+}
+
+.login .login_naver a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.login .login_naver .naver_logo {
+    margin-right: 10px;
+    font-weight: 900;
+}
+
+.login .login_naver h6 {
+    color: #fff;
+}
+
+.login .login_or {
+    margin: 30px 0;
+    border-bottom: 1px solid #666666;
+}
+
+.login .login_or .or {
+    position: absolute;
+    background-color: #fff;
+    top: -9px;
+    left: 50%;
+    padding: 0 10px;
+    transform: translateX(-50%);
+}
+
+.login .form_box .form {
+    margin-bottom: 20px;
+}
+
+.login .form_box .form input {
+    height: 60px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #c4c4c4;
+    background-color: #fff;
+    outline: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.login .form_box .form input::placeholder {
+    color: #c4c4c4;
+}
+
+.login .form_box .form input[type = 'text'] {
+    margin-bottom: 10px;
+}
+
+.login .form_box .find_info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login .form_box .find_info input {
+    display: none;
+}
+
+.login .form_box .find_info .auto {
+    display: flex;
+    align-items: center;
+}
+
+.login .form_box .find_info .auto .icon {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+}
+
+.login .form_box .find_info .auto .icon::before {
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    width: 5px;
+    height: 10px;
+    transform: translateX(-50%) translateY(20%) rotateZ(40deg);
+    border-right: 2px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
+}
+
+.login .form_box .find_info .auto label {
+    padding-left: 22px;
+}
+
+.login .form_box .find_info [type = 'checkbox']:checked + .auto .icon {
+    border-color: #fff;
+    background-color: #000;
+}
+
+.login .form_box .find_info [type = 'checkbox']:checked + .auto .icon::before {
+    border-color: #fff;
+}
+
+.login .form_box .find_info .other_login a {
+    font-weight: 700;
+}
+
+.login .form_box .form_btn {
+    height: 60px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.login .form_box .other_info a {
+    color: #666666;
+    border-bottom: 1px solid #000;
+}
+
+/* footer */
+footer {
+    top: 0 !important;
+}
