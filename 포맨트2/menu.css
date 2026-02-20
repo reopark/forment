@@ -132,6 +132,28 @@
 }
 
 
+/* sold_out */
+.section1 .item.sold_out .sold_badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 10px;
+    z-index: 4;
+}
+
+.section1 .item.sold_out img {
+    opacity: 0.5;
+}
+
+.section1 .item.sold_out .cart {
+    pointer-events: none;
+    opacity: 0.1;
+}
+
+
 @media (max-width : 1000px) {
     .section1 .container {
         grid-template-columns: repeat(2, 1fr);

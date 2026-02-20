@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+/* main */
+.main .main_bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.55) 55%, rgba(255,255,255,0.15) 100%),
+        url("images/menu/main1.png") center/cover no-repeat;
+    transform: scale(1.03);
+}
+
+
+/* section1 */
+.section1 .item_sub {
+    position: relative;
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.section1 .item_sub .sub_img { 
+    position: absolute;
+    inset: 0;
+}
+
+.section1 .item_sub .sub_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: blur(2px);
+    opacity: 0.5;
+    transform: scale(1.06);
+}
+
+.section1 .item_sub::after {
+    content:'';
+    position:absolute;
+    inset:0;
+    background: linear-gradient(180deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.3) 55%, rgba(255,255,255,0.7) 100%);
+    z-index: 1;
+}
+
+.section1 .item_sub .sub_text {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: min(46%, 520px);
+    text-align: center;
+}
+
+.section1 .item_sub .sub_text .sub_title {
+    font-family: "Cormorant Garamond", serif;
+    line-height: 1.2;
+    margin-bottom: 12px;
+}
+
+.section1 .item_sub .sub_text .sub_txt {
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+.section1 .item_sub .sub_text .sub_desc {
+    color: #888888;
+    line-height: 1.7;
+}
+
+/* 반응형 */
+@media (max-width: 900px){
+    .section1 .item_sub {
+        height: 280px;
+    }
+
+    .section1 .item_sub .sub_text .sub_title {
+        font-size: 22px;
+    }
+    .section1 .item_sub .sub_text .sub_txt {
+        font-size: 13px;
+    }
+    .section1 .item_sub .sub_text .sub_desc {
+        font-size: 12px;
+    }
+}

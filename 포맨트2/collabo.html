@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>콜라보</title>
+    <link rel="stylesheet" href="com.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="collabo.css">
+    <link rel="icon" href="images/cate/1.png">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/collabo.js"></script>
+</head>
+<body>
+    <!-- aside 시작 -->
+    <aside id="top"><p>신규회원 무료 배송 + 1만원 쿠폰 팩</p></aside>
+    <!-- aside 끝 -->
+    <!-- top_btn 시작 -->
+    <div class="top_btn"><a href="#top"><i class="fa-solid fa-angle-up"></i></a></div>
+    <!-- top_btn 끝 -->
+    <!-- header 시작 -->
+    <header>
+        <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt=""></a>
+            </div>
+            <ul class="menu">
+                <li class="menu_li">
+                    <a href="#none">About us</a>
+                    <ul class="sub">
+                        <li class="sub_list"><a href="">브랜드 소개</a></li>
+                        <li class="sub_list"><a href="">스토어</a></li>
+                    </ul>
+                </li>
+                <li class="menu_li">
+                    <a href="menu.html">Products</a>
+                    <ul class="sub">
+                        <li class="sub_list"><a href="menu.html">제품보기</a></li>
+                        <li class="sub_list"><a href="collabo.html">콜라보</a></li>
+                        <li class="sub_list"><a href="">정기배송</a></li>
+                    </ul>
+                </li>
+                <li class="menu_li"><a href="#">Member ship</a></li>
+                <li class="menu_li">
+                    <a href="#">Journal</a>
+                    <ul class="sub">
+                        <li class="sub_list"><a href="">매거진</a></li>
+                        <li class="sub_list"><a href="">캠페인</a></li>
+                    </ul>
+                </li>
+                <li class="menu_li"><a href="#">Event</a></li>
+                <li class="menu_li">
+                    <a href="#">Community</a>
+                    <ul class="sub">
+                        <li class="sub_list"><a href="">Q&A</a></li>
+                        <li class="sub_list"><a href="">FAQ</a></li>
+                        <li class="sub_list"><a href="">공지사항</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="right">
+                <a href="#none"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            </div>
+            <div class="search">
+                <div class="search_form">
+                    <input type="text" placeholder="검색어를 입력해주세요.">
+                    <button class="sub">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                </div>
+            </div>
+            <div class="ham">
+                <div class="bar bar1"></div>
+                <div class="bar bar2"></div>
+                <div class="bar bar3"></div>
+            </div>
+    </header>
+    <!-- haeder 끝 -->
+    <!-- m_menu 시작-->
+    <div class="m_menu">
+        <div class="close"><i class="fa-solid fa-x"></i> </div>
+        <div class="m_box">
+            <ul class="list">
+                <li class="m_list">
+                    <a href="menu.html">제품<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="sub">
+                        <div class="item">
+                            <ul class="sub_ul">
+                                <li class="sub_li"><a href="menu.html?cate=all#cate">전체상품</a></li>
+                                <li class="sub_li"><a href="menu.html?cate=best#cate">베스트</a></li>
+                                <li class="sub_li"><a href="menu.html?cate=perfume#cate">퍼퓸</a></li>
+                                <li class="sub_li"><a href="menu.html?cate=bodyhair#cate">바디&헤어</a></li>
+                                <li class="sub_li"><a href="menu.html?cate=handlip#cate">핸드&립</a></li>
+                                <li class="sub_li"><a href="menu.html?cate=lifestyle#cate">라이프스타일</a></li>
+                                <li class="sub_li"><a href="menu.html?cate=mens#cate">남성케어</a></li>
+                                <li class="sub_li"><a href="menu.html?cate=tool#cate">툴</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="m_list">
+                    <a href="collabo.html">콜라보</a>
+                </li>
+                <li class="m_list">
+                    <a href="">브랜드 소개</a>
+                </li>
+                <li class="m_list">
+                    <a href="#none">멤버십</a>
+                </li>
+                <li class="m_list">
+                    <a href="#none">이벤트</a>
+                </li>
+                <li class="m_list">
+                    <a href="#none">커뮤니티<i class="fa-solid fa-angle-down"></i></a>
+                    <div class="sub">
+                        <div class="item">
+                            <ul class="sub_ul">
+                                <li class="sub_li"><a href="#none">Q&A</a></li>
+                                <li class="sub_li"><a href="#none">FAQ</a></li>
+                                <li class="sub_li"><a href="#none">공지사항</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="m_bottom">
+                <ul>
+                    <li><a href="login.html">로그인</a> / <a href="">회원가입</a>
+                        <p>회원가입시 <span>최대 1만원 쿠폰</span></p>
+                    </li>
+                    <li><a href="#none">매거진</a></li>
+                    <li><a href="#none">캠페인</a></li>
+                    <li><a href="#none">고객센터</a></li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+    <!-- m_menu 끝-->
+    <!-- main 시작 -->
+    <div class="main">
+        <div class="main_bg"></div>
+        <div class="main_title">
+            <h1>collabo</h1>
+        </div>
+    </div>
+    <!-- main 끝 -->
+    <!-- section1 시작 -->
+    <section class="section1">
+        <div class="cate">
+            <div class="item on" data-cate="all">
+                <a href="#">
+                    <img src="images/cate/1.png" alt="전체">
+                    <p>전체</p>
+                </a>
+            </div>
+            <div class="item" data-cate="shiro">
+                <a href="#">
+                    <img src="images/cate/2.png" alt="짱구&흰둥이">
+                    <p>짱구&흰둥이</p>
+                </a>
+            </div>
+            <div class="item" data-cate="kitty">
+                <a href="#">
+                    <img src="images/cate/3.png" alt="헬로키티 에디션">
+                    <p>헬로키티 에디션</p>
+                </a>
+            </div>
+            <div class="item" data-cate="kuromi">
+                <a href="#">
+                    <img src="images/cate/4.png" alt="쿠로미 에디션">
+                    <p>쿠로미 에디션</p>
+                </a>
+            </div>
+            <div class="item" data-cate="shin">
+                <a href="#">
+                    <img src="images/cate/5.png" alt="짱구는 못말려">
+                    <p>짱구는 못말려</p>
+                </a>
+            </div>
+            <div class="item" data-cate="kakaofriends">
+                <a href="#">
+                    <img src="images/cate/6.png" alt="카카오프렌즈">
+                    <p>카카오프렌즈</p>
+                </a>
+            </div>
+            <div class="item" data-cate="frozen">
+                <a href="#">
+                    <img src="images/cate/7.png" alt="겨울왕국">
+                    <p>겨울왕국</p>
+                </a>
+            </div>
+            <div class="item" data-cate="nerdy">
+                <a href="#">
+                    <img src="images/cate/8.png" alt="포맨트X널디">
+                    <p>포맨트X널디</p>
+                </a>
+            </div>
+            <div class="item" data-cate="absolut">
+                <a href="#">
+                    <img src="images/cate/9.png" alt="ABSOLUT">
+                    <p>ABSOLUT</p>
+                </a>
+            </div>
+        </div>
+        <!-- collabo banner-->
+        <div class="item_banner">
+            <div class="item_sub" data-cate="shiro">
+                <div class="sub_img">
+                    <img src="images/collabo/1.jpg" alt="">
+                </div>
+                <div class="sub_text">
+                    <h2 class="sub_title">Shinchan Edition</h2>
+                    <h3 class="sub_txt">아크네 퍼퓸 바디워시 코튼허그 에디션</h3>
+                    <p class="sub_desc">짱구와 흰둥이의 즐거운 목욕 시간 피부를 맑고 깨끗하게 케어해줍니다.</p>
+                </div>
+            </div>
+            <div class="item_sub" data-cate="kitty">
+                    <div class="sub_img">
+                        <img src="images/collabo/2.jpg" alt="">
+                    </div>
+                    <div class="sub_text">
+                        <h2 class="sub_title">Hello Kitty Edition</h2>
+                        <h3 class="sub_txt"> 시그니처 퍼퓸 헬로키티 에디션</h3>
+                        <p class="sub_desc">행복과 설렘의 순간을 담은 시그니처 향기와 헬로키티 피규어 캡이 더해진 한정판 향수입니다.</p>
+                    </div>
+            </div>
+            <div class="item_sub" data-cate="kuromi">
+                    <div class="sub_img">
+                        <img src="images/collabo/3.jpg" alt="">
+                    </div>
+                    <div class="sub_text">
+                        <h2 class="sub_title">FORMENT x Kuromi Edition</h2>
+                        <h3 class="sub_txt">시그니처 퍼퓸 쿠로미 에디션</h3>
+                        <p class="sub_desc">포근함을 담은 코튼허그 설렘을 담은 코튼메모리 쿠로미와 함께한 두가지 에디션을 만나보세요</p>
+                    </div>
+            </div>
+            <div class="item_sub" data-cate="shin">
+                    <div class="sub_img">
+                        <img src="images/collabo/4.png" alt="">
+                    </div>
+                    <div class="sub_text">
+                        <h2 class="sub_title">Shinchan Edition</h2>
+                        <h3 class="sub_txt">시그니처 퍼퓸 짱구 에디션</h3>
+                        <p class="sub_desc">하루일과를 마치고 포근한 이불에서 잠을 자는 짱구의 모습에서 영감을 받아 디자인된 <br> 코튼허그 짱구 에디션 포근하고 깨끗한 코튼허그 이불 속에서 잠자는 짱구를 만나보세요.</p>
+                    </div>
+            </div>
+            <div class="item_sub" data-cate="kakaofriends">
+                    <div class="sub_img">
+                        <img src="images/collabo/5.png" alt="">
+                    </div>
+                    <div class="sub_text">
+                        <h2 class="sub_title">Choonsik Edition</h2>
+                        <h3 class="sub_txt">시그니처 퍼퓸 춘식이 에디션</h3>
+                        <p class="sub_desc">목욕 후 욕실에서 피어나는 촉촉한 수증기와 버블솝의 기분 좋은 향취를 <br> 표현한 비누향으로 올 여름 더욱 특별한 코튼배쓰를 즐겨보세요.</p>
+                    </div>
+            </div>
+            <div class="item_sub" data-cate="frozen">
+                    <div class="sub_img">
+                        <img src="images/collabo/6.png" alt="">
+                    </div>
+                    <div class="sub_text">
+                        <h2 class="sub_title">Frozen Edition</h2>
+                        <h3 class="sub_txt">시그니처 퍼퓸 프로즌 에디션</h3>
+                        <p class="sub_desc">엘사가 올라프를 위해 눈구름을 만들어주는 장면에 영감을 받아 디자인된 <br> 코튼허그 ‘프리즌’은 올라프의 따뜻한 마음이 영원하길 바라는 마음이 담긴 에디션입니다.</p>
+                    </div>
+            </div>
+            <div class="item_sub" data-cate="nerdy">
+                    <div class="sub_img">
+                        <img src="images/collabo/7.png" alt="">
+                    </div>
+                    <div class="sub_text">
+                        <h2 class="sub_title">Nerdy fantasy Edition</h2>
+                        <h3 class="sub_txt">시그니처 퍼퓸 NERDY FANTASY 에디션</h3>
+                        <p class="sub_desc">레어하고 반항적인 아이덴티티가 담긴 널디 판타지를 <br> 향과 아트웍으로 풀어낸 특별 한정판 향수 입니다</p>
+                    </div>
+            </div>
+            <div class="item_sub" data-cate="absolut">
+                    <div class="sub_img">
+                        <img src="images/collabo/8.jpg" alt="">
+                    </div>
+                    <div class="sub_text">
+                        <h2 class="sub_title">FORMENT x ABSOLUTE</h2>
+                        <h3 class="sub_txt">시그니처 퍼퓸 ABSOLUT</h3>
+                        <p class="sub_desc">포맨트와 앱솔루트를 관통하는 3가지 키워드를 향과 아트웍으로 <br> 풀어낸 포맨트 특별 한정판 향수입니다.</p>
+                    </div>
+                </div>
+
+        </div>
+        <div class="container">
+            <div class="item" data-cate="all kitty">
+                <a href="submenu.html?id=12"><div class="img_box"><img src="images/menu/12.png" alt=""></div></a>
+                <div class="cart">
+                    <div class="icon icon1">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="icon icon2"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <div class="item_text">
+                    <div class="top">
+                        <p class="top1">코튼허그</p>
+                        <p>코튼 메모리</p>
+                    </div>
+                    <a href="submenu.html?id=12"><h4 class="b">솔리드 퍼퓸 헬로키티 에디션</h4></a>
+                    <h4>31,000원</h4>
+                </div>
+            </div>
+            <div class="item" data-cate="all kitty">
+                <a href="submenu.html?id=13"><div class="img_box"><img src="images/menu/13.png" alt=""></div></a>
+                <div class="cart">
+                    <div class="icon icon1">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="icon icon2"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <div class="item_text">
+                    <div class="top">
+                        <p class="top1">코튼허그</p>
+                        <p>코튼 메모리</p>
+                    </div>
+                    <a href="submenu.html?id=13"><h4 class="b">시그니처 퍼퓸 헬로키티 에디션</h4></a>
+                    <h4>46,000원</h4>
+                </div>
+            </div>
+            <div class="item" data-cate="all shiro">
+                <a href="submenu.html?id=15"><div class="img_box"><img src="images/menu/15.png" alt=""></div></a>
+                <div class="cart">
+                    <div class="icon icon1">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="icon icon2"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <div class="item_text">
+                    <div class="top">
+                        <p class="top1">코튼허그</p>
+                        <p>코튼배쓰</p>
+                    </div>
+                    <a href="submenu.html?id=15"><h4 class="b">짱구&흰둥이 에디션</h4></a>
+                    <h4>46,000원</h4>
+                </div>
+            </div>
+            <div class="item sold_out" data-cate="all kakaofriends">
+                <a href="submenu.html?id=62"><div class="img_box"><img src="images/menu/62.png" alt=""></div></a>
+                <div class="cart">
+                    <div class="icon icon1">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="icon icon2"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <div class="item_text">
+                    <div class="top">
+                        <p class="top1">새하얀 비누 거품</p>
+                        <p>화이트 아이리스</p>
+                    </div>
+                    <a href="submenu.html?id=62"><h4 class="b">시그니처 퍼퓸 코튼배쓰 춘식이 에디션</h4></a>
+                    <h4>49,000원</h4>
+                </div>
+            </div>
+            <div class="item sold_out" data-cate="all kuromi">
+                <a href="submenu.html?id=31"><div class="img_box"><img src="images/menu/31.png" alt=""></div></a>
+                <div class="cart">
+                    <div class="icon icon1">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="icon icon2"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <div class="item_text">
+                    <div class="top">
+                        <p class="top1">코튼허그</p>
+                        <p>코튼 메모리</p>
+                    </div>
+                    <a href="submenu.html?id=31"><h4 class="b">시그니처 퍼퓸 쿠로미 에디션</h4></a>
+                    <h4>39,000원</h4>
+                </div>
+            </div>
+            <div class="item" data-cate="all shin">
+                <a href="submenu.html?id=63"><div class="img_box"><img src="images/menu/63.png" alt=""></div></a>
+                <div class="cart">
+                    <div class="icon icon1">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="icon icon2"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <div class="item_text">
+                    <div class="top">
+                        <p class="top1">은방울 꽃</p>
+                        <p>포근한 이불</p>
+                    </div>
+                    <a href="submenu.html?id=63"><h4 class="b">시그니처 퍼퓸 짱구 에디션</h4></a>
+                    <h4>49,000원</h4>
+                </div>
+            </div>
+            <div class="item sold_out" data-cate="all nerdy">
+                <a href="submenu.html?id=64"><div class="img_box"><img src="images/menu/64.png" alt=""></div></a>
+                <div class="cart">
+                    <div class="icon icon1">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="icon icon2"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <div class="item_text">
+                    <div class="top">
+                        <p class="top1">아이리스</p>
+                        <p>캐시미어</p>
+                    </div>
+                    <a href="submenu.html?id=64"><h4 class="b">시그니처 퍼퓸 NERDY FANTASY</h4></a>
+                    <h4>45,600원</h4>
+                </div>
+            </div>
+            <div class="item sold_out" data-cate="all frozen">
+                <a href="submenu.html?id=74"><div class="img_box"><img src="images/menu/74.png" alt=""></div></a>
+                <div class="cart">
+                    <div class="icon icon1">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="icon icon2"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <div class="item_text">
+                    <div class="top">
+                        <p class="top1">은방울 꽃</p>
+                        <p>포근한 이불</p>
+                    </div>
+                    <a href="submenu.html?id=74"><h4 class="b">시그니처 퍼퓸 코튼허그 '프로즌'</h4></a>
+                    <h4>59,000원</h4>
+                </div>
+            </div>
+            <div class="item" data-cate="all shiro">
+                <a href="submenu.html?id=14"><div class="img_box"><img src="images/menu/14.png" alt=""></div></a>
+                <div class="cart">
+                    <div class="icon icon1">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="icon icon2"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <div class="item_text">
+                    <div class="top">
+                        <p>코튼허그</p>
+                    </div>
+                    <a href="submenu.html?id=14"><h4 class="b">퍼퓸 짱구 아크네 바디워시</h4></a>
+                    <h4>18,000원</h4>
+                </div>
+            </div>
+            <div class="item sold_out" data-cate="all absolut">
+                <a href="submenu.html?id=75"><div class="img_box"><img src="images/menu/75.png" alt=""></div></a>
+                <div class="cart">
+                    <div class="icon icon1">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <div class="icon icon2"><i class="fa-solid fa-cart-shopping"></i></div>
+                </div>
+                <div class="item_text item_text2">
+                    <a href="submenu.html?id=75"><h4 class="b"> 시그니처 퍼퓸 ABSOLUT</h4></a>
+                    <h4>59,000원</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section1 끝 -->
+    <!-- footer 시작 -->
+    <footer>
+        <div class="footer1">
+            <img src="images/logo.png" alt="">
+            <div class="footer_text">
+                <ul class="item">
+                    <li>주식회사 냥냥이</li>
+                    <br>
+                    <li>대표이사 : 박상범</li>
+                    <li class="line">주소 : 인천 광역시 부평구 부평대로</li>
+                    <li class="line">사업자 등록번호 : 220-111-33333 <a href="#">[사업자정보확인]</a></li>
+                    <br>
+                    <li>전자우편 : <a href="#">green@green.com</a></li>
+                    <br>
+                    <br>
+                    <li>© APR all rights reserved. Hosted by CAFE24</li>
+                </ul>
+                <div class="right">
+                    <div class="item item1">
+                        <a href="#"><p>이용약관</p></a>
+                        <a href="#"><p class="b">개인정보처리방침</p></a>
+                        <a href="#"><p>반품 및 환불 규정</p></a>
+                        <a href="#"><p>협업문의</p></a>
+                    </div>
+                    <div class="item item2">
+                        <ul>
+                            <li>1111-5555</li>
+                            <br>
+                            <li>운영시간 : 09 : 00 ~ 18 : 00 (토, 일, 공휴일 휴무)</li>
+                            <li>점심시간 : 12 : 00 ~ 13 : 00</li>
+                        </ul>
+                        <div class="sns">
+                            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://pf.kakao.com"><i class="fa-brands fa-kakao-talk"></i></a>
+                            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- footer 끝 -->
+</body>
+</html>

@@ -18,6 +18,38 @@ $(function() {
     })
 })
 
+// m_menu
+$(function() {
+    $('header .ham').click(function() {
+        $('.m_menu').css({ transform: 'translateX(0)'});
+        $('body').addClass('menu_open');
+    })
+    $('.m_menu .close i').on('click', function() {
+        $('.m_menu').css({ transform: 'translateX(-100%)'});
+        $('body').removeClass('menu_open');
+    })
+
+    $('.m_menu .list .m_list a').click(function(e) {
+        const $li = $(this).parent('.m_list');
+        const $sub = $li.children('.sub');
+
+        // sub가 없으면 그냥 링크 이동 (토글 X)
+        if ($sub.length === 0) return;
+        
+        e.preventDefault();
+
+        if ($li.hasClass('open')) {
+            $sub.stop().slideUp(300, function () {
+                $li.removeClass('open');
+            });
+        } else {
+            $sub.stop().slideDown(300, function () {
+                $li.addClass('open');
+            });
+        }
+    })
+})
+
 /* section1 */
 $(function() {
     const $color = $('.section1 .right .bar .color');
