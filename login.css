@@ -188,6 +188,40 @@ header {
     border-bottom: 1px solid #000;
 }
 
+@media (max-width : 1000px) {
+    .login_main {
+        position: relative;
+        width: 100%;
+    }
+
+    .login {
+        width: 100%;
+        padding: 30px 20px; 
+        box-sizing: border-box;
+    }
+
+    .login .login_title {
+        text-align: left;
+    }
+
+    .login .login_title h1 {
+        font-size: 28px;
+    }
+
+    .login .login_sns, .login .login_naver, .login .form_box .form_btn {
+        height: 55px;
+        border-radius: 0;
+    }
+
+    .login .form_box .form input {
+        height: 55px;
+    }
+
+    .login .form_box .find_info .other_login a {
+        font-weight: 400;
+    }
+}
+
 /* footer */
 footer {
     top: 0 !important;
